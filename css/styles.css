@@ -1,0 +1,133 @@
+﻿/*Reset di base sia per i margini che per il padding */
+* {
+    margin: 0; /*Margini esterni del documento*/
+    padding: 0; /*Margini interni*/
+    box-sizing: border-box; /*include nel calcolo del documento bordi e margini*/
+}
+/*stile del corpo del documento html*/
+body {
+    font-family:'Times New Roman', Arial;
+    line-height: 1.6;
+    background-color: #f4f4f4; /*sfondo grigio chiaro in esadecimale*/
+    color: #333;
+}
+/*stile per i collegamenti*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*stile del logo*/
+.logo {
+    width: 75px;
+    height: 75px;
+    margin-left: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 2px #333;
+    margin-right: 20px;
+}
+/*stile intestazione del sito*/
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 12px 0;
+    border-bottom: solid 4px #004999;
+}
+/*stile di nav, barra di navigazione*/
+nav {
+    display: flex;
+    justify-content: center; /*allinea gli elementi al centro*/
+    align-items: center; /*allineamento verticale*/
+    padding: 0 30px;
+}
+/*stile per elementi di navigazione*/
+nav ul {
+    display: flex;
+    list-style: none;
+}
+/*stile di li del menu di navigazione*/
+nav ul li {
+    margin: 0 1.5rem;
+}
+/*stile dei collegamenti ipertestuali*/
+    nav ul li a {
+        font-size: 20px;
+        color: gold;
+        text-transform: uppercase; /*trasforma il testo in maiuscolo*/
+        transition: color 0.3s ease;
+    }
+    /*hover sui collegamenti*/
+    nav ul li a:hover {
+        color: darkgoldenrod; /*cambia colore al passaggio del mouse*/
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*main al centro*/
+    main{
+        margin: 10px auto 10px;
+    }
+
+
+
+
+
+
+
+
+
+    /*stile per le immagini di main*/
+    main img {
+        width:100%;
+        max-width: 400px;
+        border-radius: 8px;
+        margin: 0 auto 16px;
+        display: block;
+    } 
+    /*footer stile*/
+    footer {
+        background-color: #004999;
+        text-align: center;
+        padding: 16px;
+        color: #fff;
+        margin-top: 32px;
+        font-size: 20px;
+    }
+    /*stile per il form*/
+    form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 30px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    /*stile per i campi del form*/
+    form input, form textarea {
+        width:100%;
+        padding:12px;
+        margin-bottom:16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    /*stile del bottone del form*/
+        form button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        /*hover sul bottone del form*/
+        form button:hover {
+            background-color: #004999;
+        }
